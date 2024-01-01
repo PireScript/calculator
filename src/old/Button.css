@@ -1,0 +1,25 @@
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.btn {
+    background-color: #6e7275;
+    color: white;
+    cursor: pointer;
+    border-radius: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 5px;
+}
+.button{
+    width: 240px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+}
