@@ -12,5 +12,12 @@ const getStyleName = btn => {
     return className[btn]
 }
 export default function Button ({value}) {
-    return <button className={`button ${getStyleName(value)}`}> { value } </button>
+    const handleButtonClick = () => {
+        console.log(value);
+    }
+
+    return (
+    <button className={`button ${getStyleName(value)}`} onClick={ handleButtonClick }>
+         { value }
+    </button>);
 }
