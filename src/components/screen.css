@@ -1,4 +1,6 @@
 .screen {
+    text-align: right;
     height: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
 }
