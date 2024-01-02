@@ -1,4 +1,3 @@
-import './App.css';
 import ButtonBoard from './components/ButtonBoard';
 import Button from './components/Button';
 import Wrapper from './components/Wrapper';

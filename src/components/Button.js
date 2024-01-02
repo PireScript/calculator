@@ -71,10 +71,20 @@ export default function Button ({value}) {
                     '+': (num1, num2) => num1 + num2,
                     '-': (num1, num2) => num1 - num2,
                     'x': (num1, num2) => num1 * num2,
-                    '/': (num1, num2) => num1 / num2, 
+                    '/': (num1, num2) => {
+                        if (num2 === '0'){
+                            return 'Error';
+                        }else {
+                            return num1 / num2;
+                        }
+                    }
                 }
-    
-                return results[operator](num1,num2);
+                
+                try{
+                    return results[operator](num1,num2);
+                } catch{
+                    return 'Error';
+                }
             }
 
             setCompute({
