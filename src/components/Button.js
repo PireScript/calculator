@@ -79,7 +79,7 @@ export default function Button ({value}) {
                         }
                     }
                 }
-                
+
                 try{
                     return results[operator](num1,num2);
                 } catch{

@@ -1,6 +1,10 @@
 .screen {
+    position: static;
+    width: 250px;
+    height: 100px;
     text-align: right;
     height: 4rem;
     margin-bottom: 2rem;
     margin-top: 3rem;
+    font-family: 'Arial', 'sans-serif';
 }

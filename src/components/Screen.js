@@ -5,6 +5,7 @@ import { Textfit } from 'react-textfit';
 
 export default function Screen () {
     const { compute } = useContext(CalculatorContext);
+
     return (
     <Textfit 
         className="screen"
@@ -13,5 +14,6 @@ export default function Screen () {
         max={60}
         throttle={50}>
          { compute.number ? compute.number : compute.result }
-    </Textfit>);
+    </Textfit>
+    );
 }
