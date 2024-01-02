@@ -1,7 +1,7 @@
 
 # React Calculator
 A simple calculator project built using React, React components, state management with useContext hooks, and the TextFit third-party library.
-Check it out [here](https://calculatorcv.netfily.app).
+Check it out [here](https://calculatorcv.netlify.app/).
 ## Overview
 This project implements a basic calculator using React, taking advantage of component-based architecture, state management with React hooks, and the useContext hook for managing the application state. Additionally, the TextFit library is utilized to dynamically adjust the font size for responsive and visually appealing text.
 
